@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📝 Text Analyzer</h1>
+
+  <textarea id="textInput" placeholder="Paste or type your text here..." rows="8"></textarea>
+
+  <div class="controls">
+    <button id="analyzeBtn">Analyze Text</button>
+    <button id="clearBtn">Clear</button>
+  </div>
+
+  <div id="results">
+    <h2>Analysis Results</h2>
+    <p><strong>Word count:</strong> <span id="wordCount">0</span></p>
+    <p><strong>Character count:</strong> <span id="charCount">0</span></p>
+    <p><strong>Most frequent word:</strong> <span id="freqWord">-</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
